@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
         recyclerView = findViewById(id.recyclerView)
 
         val items = listOf(
-            CardItem(R.drawable.sample_image, "Description 1"),
-            CardItem(R.drawable.sample_image2, "Description 2"),
-            CardItem(R.drawable.sample_image3, "Description 3"),
-            CardItem(R.drawable.sample_image4, "Description 4"),
-            CardItem(R.drawable.sample_image5, "Description 5"),
-            CardItem(R.drawable.sample_image6, "Description 6"),
+            CardItem(R.drawable.sample_image, "Zenith Striders"),
+            CardItem(R.drawable.sample_image2, "Astra Comfort"),
+            CardItem(R.drawable.sample_image3, "NexStep Elite"),
+            CardItem(R.drawable.sample_image4, "LunaFlex Pro"),
+            CardItem(R.drawable.sample_image5, "TerraWalkers"),
+            CardItem(R.drawable.sample_image6, "VelociSneak"),
 
         )
 

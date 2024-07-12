@@ -35,14 +35,11 @@ class ExampleInstrumentedTest {
                 )
             )
 
-        // Here you could add checks for actions that should happen after clicking the item
-        // onView(withId(R.id.detailView)).check(matches(isDisplayed()))
     }
 
     @Test
     fun testTypeTextInEditText() {
-        // Type text (this will work even without a real EditText)
-        onView(withText("ABC")) // Replace with any existing text view
+        onView(withText("VelociSneak")) // Replace with any existing text view
             .perform(replaceText("Hello"), closeSoftKeyboard())
 
         // Check if the text is now "Hello"
